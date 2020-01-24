@@ -1,1 +1,3 @@
 # Hierarchical-Taxonomy-Classification
+
+In our work, we introduce a hierarchical framework that can be extended into one hierarchical classifier capable of classifying any DNA barcode sequence without any apriori knowledge about its taxonomic tree. This framework utilizes Support Vector Classifiers in order to build a two-stage classifier that can predict the species given the DNA barcode sequence only without the need to do any sequence alignment step. Our framework enables leveraging the strength of the Support Vector Classifiers while overcoming the scalability issues that arise when the number of classes increases or when the data matrix size grows.
